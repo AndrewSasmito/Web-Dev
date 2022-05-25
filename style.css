@@ -14,10 +14,14 @@
 }
 #Main_Text {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
 }
-  
+ 
+.header {
+    background-color: lightblue;
+}
+
 nav{
     font-size: 20px;
     display: flex;

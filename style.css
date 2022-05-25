@@ -25,11 +25,12 @@
     font-family: 'Open Sans', sans-serif;
     align-items: center;
     font-size: 40px;
-    
+    color: greenyellow;
 }
- 
+
+
 .header {
-    background-color: lightblue;
+    background-color: black;
 }
 
 nav{
@@ -57,7 +58,7 @@ nav img{
 
 .navigation-links ul li a{
     font-family: 'Open Sans', sans-serif;
-    color: red;
+    color: white;
     text-decoration: none;
     font-size: 30;
 }

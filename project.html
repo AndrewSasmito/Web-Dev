@@ -36,21 +36,26 @@
 
         <hr />
 
-        <h1>
-            My Projects
-        </h1>
-        <section>
-            <!-- Each Project (Needs to be formatted properly with proper font) -->
-            <a href="https://github.com/AndrewSasmito/Web-Dev">
-                <div>
-                    <img src = "./photos/Website_Photo.png" />
-                </div>
-                <div>
-                    <h2>Personal Website </h2>
-                    <h3>Languages: HTML, CSS </h3> 
-                </div>
-            </a>
-            
+        <section class = "all_project">
+            <h1 style = "padding: 30px 40px; text-align: center;">
+                My Projects
+            </h1>
+            <div class = "projects">
+                <!-- Each Project (Needs to be formatted properly with proper font) -->
+                    <!-- There should be two projects per 'div'-->
+                <a href="https://github.com/AndrewSasmito/Web-Dev" target="_blank">
+                    <div  class = "project_back">
+                        <div>
+                            <img src = "photos/Website_Photo.png" width="550" height = "300"/>
+                        </div>
+                        <div class = "project">
+                            <h2 style = "color: blue">Personal Website </h2>
+                            <h4 style = "color: darkblue">Languages: HTML, CSS </h4> 
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
         </section>
 
     </body>

@@ -42,8 +42,9 @@
 }
 
 /* Home page */
-#canvases {
+#canvas1 {
     width: 100%;
+    
     height: 100%;
     background: radial-gradient(rgb(201, 101, 101), rgb(187, 26, 26));
 }

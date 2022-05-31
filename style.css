@@ -150,3 +150,11 @@ nav img{
     transition: 0.75s ease-in;
     cursor: pointer;
 }
+.Project_Text {
+    font-size: 40px;
+    font-family: Arial, 
+        Helvetica, sans-serif;
+    background: linear-gradient(to top, rgb(43, 199, 247), rgb(0, 110, 255));
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}

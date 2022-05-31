@@ -78,25 +78,6 @@ class Particle {
 
 function init() {
 
-
-
-    //Set the font size and the fontface to use.
-    ctx.font = '25px Arial';
-
-    //Set the color of the text. This can be
-    //an RGB color or a textual description
-    //such as red.
-    ctx.fillStyle = '0,0,0';
-
-    //The X coordinate where to start
-    var xes = 50;
-
-    //The Y coordinate where to start
-    var yes = 100;
-
-    //Use the fillText method to draw the text.
-    ctx.fillText("Welcome to my Site!", xes, yes);
-
     particlesArray = [];
 
     let numberOfParticles = (canvas.height * canvas.width) / 9000;
